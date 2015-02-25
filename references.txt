@@ -1,0 +1,18 @@
+Tutorial for absolute beginner to python --- 2 hours
+Jessica McKellar
+https://www.youtube.com/watch?v=rkx5_MRAV3A#t=894
+
+#short intro to os and math libraries
+https://www.youtube.com/watch?v=JMi4GXd_0XU
+
+Book: think python
+http://openbookproject.net/thinkcs/python/english2e/
+
+Another intro using example of data analysis
+http://software-carpentry.org/v5/novice/python/index.html
+
+django - web framework using python
+
+Video about VCS (version control system) and GIT
+[not good]
+https://www.youtube.com/watch?v=gY2JwRfin1M

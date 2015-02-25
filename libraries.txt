@@ -1,0 +1,13 @@
+import math
+#math functions, sqrt, trignometric, exp, log, etc.
+
+import os
+os.getcwd() # current working directory
+os.chdir('..') # change directory
+os.mkdir('temp')
+os.listdir('.')
+for filename in os.listdir('.'): # do something to every file in dir
+os.remove('filename')
+os.rename('filename','newname')
+os.path.exists('filename') # True or False
+os.path.isfile('filename')

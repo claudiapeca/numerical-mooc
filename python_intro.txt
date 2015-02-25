@@ -1,0 +1,86 @@
+add strings (concatenation) ex: "Hello, " + "Claudia!" = "Hello, Claudia!"
+#can also multiply, ex: 'l'*2 = 'll'
+
+
+single quotes = double quotes
+
+len()  --- length of strings, list, etc
+help(len) --- 
+dir() --- list of variables already defined
+
+
+= assignment
+== comparison 
+! negation
+
+in  ex: "h" in "hello"; "z" not in "hello"
+
+if "banana" in "bananarama": 
+   print "hello"
+else: 
+   print "Oh!"
+
+if a==2 and b>a: 
+   print '1'
+elif b<a:
+   print '2'
+else:
+   print '3'
+
+
+#lists
+my_list=['a','b','c']
+len(my_list)
+mylist[0] -> 'a'
+mylist[-1] -> 'c'
+mylist[-2] -> 'b'
+my_list.append('d')
+my_list[0]='z'
+my_list.index('c') -> 2
+'a' in my_list -> False
+my_list[0:2] -> ['z','b']
+my_list[1:] -> ['b','c','d']
+my_list[:] -> ['z','b','c','d']  # same for strings
+my_list.sort()
+my_list -> ['b','c','d','z']
+
+for letter in my_list:
+    print(letter)
+
+range(n:m) -> n, n+1, ..., m-1
+for i in range(0,3): 
+    print i -> 0 1 2 #in column
+
+for x in 'hello':
+    print x -> h e l l o #in column
+
+import sys
+if len(sys.argv) <2:
+   print 'you must enter input'
+   exit(1)
+total=float(sys.argv[1])
+#sys.argv[0] is the name of the program run
+
+
+#print formatted text
+print 'asdfg %.1f, %f' % (2.,0)
+print 'a', 'b', 'c' -> a b c # in line with whitespace in between
+
+
+#dictionaries
+capital_dict = {'France':'Paris','Portugal':'Lisbon',
+	     'United Kingdom':'London','Germany':'Berlin'}
+countries=capital_dict.keys()
+capital_France=capital_dict['France']
+
+
+#input 
+raw_input() # check for use
+
+
+#power
+2**3 -> 8
+
+
+#import commands
+import matplotlib.pyplot as plt #plt as alias for mat...
