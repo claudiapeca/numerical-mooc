@@ -1,3 +1,8 @@
+Prof. Randall LeVeque's book "Finite Difference Methods for Ordinary
+and Partial Differential Equations" (2007)—several chapters are
+available on his website:
+http://faculty.washington.edu/rjl/fdmbook/
+
 Tutorial for absolute beginner to python --- 2 hours
 Jessica McKellar
 https://www.youtube.com/watch?v=rkx5_MRAV3A#t=894
